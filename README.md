@@ -18,11 +18,12 @@ Modern, card-style layout with color highlights
 Project Structure
 
 project/
+
 │
 ├─ dataset/ Folder containing training images (one folder per person)
-├─ trainer.yml Trained LBPH model (auto-generated)
-├─ labels.csv Mapping of label IDs to names (auto-generated)
-├─ attendance.csv Attendance log (auto-generated)
+├─ trainer.yml Trained LBPH model 
+├─ labels.csv Mapping of label IDs to names 
+├─ attendance.csv Attendance log (
 ├─ attendance_opencv.py Real-time camera face recognition & attendance script
 ├─ dashboard_dash.py Modern attendance dashboard (Dash/Plotly)
 ├─ README.md This file
@@ -68,4 +69,5 @@ Feel free to modify and use it for personal or educational purposes
 Acknowledgements
 OpenCV for face recognition
 Dash/Plotly for dashboard visualization
+
 Python community for examples and tutorials
